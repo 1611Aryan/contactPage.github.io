@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 67.5%;
+  background: #66bfbf;
+  background: -webkit-gradient(linear, left top, right top, from(#66bfbf), color-stop(57%, #36d1a7));
+  background: linear-gradient(90deg, #66bfbf 0%, #36d1a7 57%);
+}
+
+#errors {
+  color: red;
+  font-size: 1rem;
+  margin: 0.5rem 0 0 3vw;
+}
+
+#container {
+  margin: 2vw 3vw;
+}
+
+#container h2 {
+  font-size: 3rem;
+}
+
+#container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#container form .font {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  width: 60%;
+  border-radius: 10px;
+}
+
+#container form .font:focus {
+  outline: none;
+  background-color: #b4fdf7;
+}
+
+#container form input {
+  padding: 10px;
+  background-color: #efefef;
+  border: 0.5px solid #000000;
+}
+
+#container form textarea {
+  padding: 10px;
+  background-color: #efefef;
+  resize: vertical;
+  border: 0.5px solid #000000;
+}
+
+#container form #submit {
+  width: 20%;
+  border: none !important;
+  cursor: pointer;
+}
+
+#container form #submit:hover {
+  background-color: #f5ff70 !important;
+}
+/*# sourceMappingURL=design.css.map */

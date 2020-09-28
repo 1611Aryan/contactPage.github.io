@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 67.5%;
+    background: rgb(102,191,191);
+background: linear-gradient(90deg, rgba(102,191,191,1) 0%, rgba(54,209,167,1) 57%);
+}
+#errors{
+    color:red;
+    font-size: 1rem;
+    margin:0.5rem 0 0 3vw;
+}
+#container {
+    margin: 2vw 3vw;
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .font {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            width: 60%;
+            border-radius: 10px;
+
+            &:focus{
+                outline: none;
+                background-color: rgb(180, 253, 247);
+            }
+
+        }
+
+        input {
+            padding: 10px;
+            background-color: #efefef;
+            border: 0.5px solid #000000
+        }
+
+        textarea {
+            padding: 10px;
+            background-color: #efefef;
+            resize: vertical;
+            border: 0.5px solid #000000
+        }
+
+        #submit {
+            width: 20%;
+            border: none !important;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgb(245, 255, 112) !important;
+            }
+        }
+    }
+
+}
